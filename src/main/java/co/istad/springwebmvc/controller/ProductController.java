@@ -48,7 +48,7 @@ public class ProductController {
 
     @DeleteMapping("/{uuid}")
     void deleteProductByUuid(@PathVariable String uuid){
-        productService.deleteByUuid(uuid) ;
+        productService.deleteByUuid(uuid)   ;
     }
 
 }
